@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <array name="CommonMessagingConfiguration" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="name">UM_MQTT</value>
+        <value name="type">MQTT3</value>
+        <value name="type_display">MQTT 3.1.1</value>
+        <value name="description">Conexion al UM via MQTT</value>
+        <value name="clientId">IS_publisher</value>
+        <value name="version">MQTT3</value>
+        <value name="package">UM_demo</value>
+        <value name="useCsq">false</value>
+        <value name="csqSize">-1</value>
+        <value name="enabled">true</value>
+        <value name="clientAuthType">NONE</value>
+        <value name="user"></value>
+        <value name="host">tcp://localhost:9001</value>
+        <jboolean name="cleanSessionEnabled">false</jboolean>
+        <number name="timeout" type="java.lang.Integer">30</number>
+        <number name="keepAlive" type="java.lang.Integer">60</number>
+        <jboolean name="will_enabled">false</jboolean>
+        <jboolean name="will_retain">false</jboolean>
+        <value name="will_payload"></value>
+        <value name="will_onConnectPayload"></value>
+        <value name="will_onDisconnectPayload"></value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
