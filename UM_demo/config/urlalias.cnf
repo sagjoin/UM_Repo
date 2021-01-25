@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="mqttAPI" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/com.mqtt_api.restApi:mqttAPI</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="jmsAPI" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/com.jms_api.restApi:jmsAPI</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="nativeAPI" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/com.native_api.restApi:nativeAPI</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+  <record name="temps" javaclass="com.wm.util.Values">
+    <value name="urlPath">rad/com.IoT.restApi:iotAPI</value>
+    <record name="portMap" javaclass="com.wm.util.Values">
+    </record>
+  </record>
+</Values>
